@@ -54,14 +54,14 @@ bool LinearProbing::contains(int key) {
 
     for (int i = 0; i < table_capacity; ++i) {
         int probeIndex = (index + i) % table_capacity;
-
+         comparisons++;   // Each slot inspection counts as one comparison
 
         if (table[probeIndex] == EMPTY) {
             return false; // Key not found
         }
 
         if (table[probeIndex] == key) {
-            comparisons++;   // Each slot inspection counts as one comparison
+
             return true; // Key found
         }
 

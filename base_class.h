@@ -13,7 +13,7 @@
 class base_class
 {
 protected:
-    int comparisons;       // Number of key comparisons made (only key == table[i])
+    int comparisons;       // Number of key comparisons made
     int table_capacity;    // Total capacity of the hash table
     int table_size;        // Number of currently stored elements
 

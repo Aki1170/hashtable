@@ -12,6 +12,7 @@ add_executable(hashtable linear_probing_test.cpp
     base_class.h
     quadratic_probing_test.cpp
     chained_test.cpp
+    stess_test.cpp
 )
 
 include(GNUInstallDirs)
