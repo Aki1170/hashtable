@@ -49,5 +49,3 @@ This project was created as a practical study tool to:
 	•	GitHub: Aki1170
 
 ⸻
-
-Project Status: Active Development – Chaining implementation in progress.
